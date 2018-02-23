@@ -6,7 +6,7 @@ package com;
 class Module1 {
 	public void m() throws Exception {
 		System.out.println("Module-1 :: m()");
-		throw new Exception(" i hate u"); // unchecked exception
+		throw new Exception(" i hate u"); // checked exception
 	}
 }
 
